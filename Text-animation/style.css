@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hel{
+    color:rgb(255, 174, 0);
+    text-shadow: 0 0 20px  orangered;
+    font-weight: 700;
+    font-size: 100px;
+    position: relative;
+}
+.hel::before
+{
+    position: absolute;
+    border-right: 2px solid orangered;
+    content: "Hello";
+    animation:  ani 2s linear infinite;
+    width: 0%;
+    color: greenyellow;
+    overflow: hidden;
+}
+
+@keyframes ani
+{
+    0%
+    {
+        width: 0;
+    }
+
+    50%
+    {
+        width:100% ;
+    }
+}
