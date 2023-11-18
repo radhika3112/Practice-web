@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    min-height: 100vh;
+    
+}
+h2
+{
+    text-align: center;
+}
+
+#input-el
+{
+    border: 2px solid olivedrab;
+    border-radius: 5px;
+    width: 95%;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#save-btn
+{
+    color: white;
+    background-color: olivedrab;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px ;
+    margin-left: 10px;
+    display: block;
+}
+
+.bt
+{
+    
+    height: 200px;
+    width: 300px;
+    background-color: aquamarine;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.red
+{
+    background-color: red;
+}
+
